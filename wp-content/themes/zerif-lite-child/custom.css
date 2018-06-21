@@ -1,0 +1,90 @@
+/* Main button colors */
+.green-btn{
+    background-color: #87d600;
+}
+.green-btn:hover {
+    background-color: #6cab00;
+}
+
+.red-btn{
+	background-color: #978412;
+}
+
+.red-btn:hover {
+	background-color: #63560B;
+}
+
+
+/* Change focus area */
+/* Change size of focus area */
+
+.focus {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	background: #FFFFFF;
+
+}
+
+/* Change size of focus circles */
+.focus-box .service-icon  {
+	width: 75px;
+	height: 75px;
+	border-radius: 0;
+}
+
+.focus-box .service-icon .pixeden{
+	border-radius: 0;
+}
+
+@media (min-width: 1200px){
+.col-lg-3.col-sm-3.focus-box  {
+    width: 12.5%;
+}
+}
+
+/* Change color of focus circles */
+.focus-box:nth-child(n) .service-icon:hover{
+	border: 10px solid #87d600;
+}
+.focus-box:nth-child(n) .red-border-bottom:before {
+	background: #978412;
+}
+
+/* Movie background settings */
+#homevideo {position: fixed; top:0; left:0; z-index: -99; width: 100%; height: 100%;}
+video {width:100%; height:auto;}
+
+/* Remove copy-right */
+.zerif-copyright-box {
+  display: none;
+}
+
+/* Change Social Icons */
+.social li a { color: #978412; font-size: 25px; }
+
+.social li a:hover { color: #63560B; }
+
+/* Change font color of footer */
+.copyright p, .copyright a{
+	color: #87d600
+}
+
+.company-details a {
+	color: #6cab00
+}
+
+.company-details a:hover{
+	color: #87d600
+}
+
+/* Div on tour page hide and expand */
+.reveal-open{
+	overflow:auto;
+	height:auto;
+}
+
+.reveal-closed{
+	overflow:hidden;
+	height:240px;
+}
